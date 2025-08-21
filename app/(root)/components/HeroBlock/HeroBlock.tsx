@@ -35,7 +35,7 @@ export function HeroBlock() {
             </p>
             
             <div className="flex items-center justify-center pb-5">
-                <Button className="bg-purple-600 text-white rounded-lg px-20 py-6 text-lg font-semibold shadow-lg transition duration-300 ease-in-out my-8" asChild>
+                <Button className="bg-purple-600 hover:bg-purple-500/50 text-white rounded-lg px-20 py-6 text-lg font-semibold shadow-lg transition duration-300 ease-in-out my-8" asChild>
                     <Link href={"/dashboard" as any}>
                         <Sparkles className="group-hover:rotate-12 transition-transform" />
                         Start Partitricing now

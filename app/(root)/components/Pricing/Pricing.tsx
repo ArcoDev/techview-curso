@@ -42,8 +42,8 @@ return (
                             </li>
                         ))}
                     </ul>
-                    <Button size="lg">{ plan.buttonText }</Button>
                 </CardContent>
+                <Button className={`w-full ${ plan.popular ? "bg-purple-600/35 hover:bg-purple-600/100" : "bg-purple-300/50 hover:bg-purple-600/100"}`} size="lg">{ plan.buttonText }</Button>
             </Card>
             ))}
         </div>
