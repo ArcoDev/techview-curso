@@ -4,10 +4,10 @@ export const links = [{
     href: "#how-it-works"
 }, {
     name: "Pracing",
-    href: "#pracing"
+    href: "#pricing"
 },{
     name: "Contact",
-    href: "#contact"
+    href: "#cta"
 },{
     name: "Dashboard",
     href: "/dashboard"
